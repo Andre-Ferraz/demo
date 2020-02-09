@@ -10,14 +10,15 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software
 
 ```
-You need jdk 11, Maven 3.6 and postgresql 10.10 installed
-You also need the git installed if you want following some tips bellow
-The steps below assume that postgresql is running and listening on port 5432 and has also created a database called demo_db
+You need jdk 11, Maven 3.6 and postgresql 10.10 installed.
+You also need the git installed if you want following some tips bellow.
+The steps below assume that postgresql is running and listening on port 5432 
+and has also created a database called demo_db.
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tell you how to get a development env running.
 This show you how to install it in a linux environment, but it's works similar in another OS
 
 Choose an appropriate directory and clone the project using the CLI interface
@@ -30,7 +31,7 @@ Change into the project folder
 $ cd demo
 ```
 
-Run the following command to generate a jar file. May be take some seconds
+Run the following command to generate a jar file
 ```
 $ mvn package
 ```
