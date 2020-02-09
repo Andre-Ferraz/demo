@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS media (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(512) NOT NULL,
+    url VARCHAR(512),
+    media_length INTEGER
+);
