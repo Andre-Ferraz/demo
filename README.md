@@ -23,21 +23,21 @@ This show you how to install it in a linux environment, but it's works similar i
 
 Choose an appropriate directory and clone the project using the CLI interface
 ```
-$ git clone https://github.com/Andre-Ferraz/demo.git
+git clone https://github.com/Andre-Ferraz/demo.git
 ```
 
 Change into the project folder
 ```
-$ cd demo
+cd demo
 ```
 
 Run the following command to generate a jar file
 ```
-$ mvn package
+mvn package
 ```
 If no errors were reported, you have a folder called "target" in the project. Inside it, there is a jar file that can be executed using the following command
 ```
-$ java -jar target/jarFile.jar
+java -jar target/jarFile.jar
 ```
 
 The postman can be used to send requests to app. You can install postman to running some tests.
