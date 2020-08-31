@@ -1,4 +1,4 @@
-# demo
+# Spring Boot Application
 A simple application that receives, stores, lists and searches resources.
 
 ## Getting Started
@@ -7,14 +7,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software
+What things you need to install the software:
 
-```
-You need jdk 11, Maven 3.6 and postgresql 10.10 installed.
-You also need the git installed if you want following some tips bellow.
-The steps below assume that postgresql is running and listening on port 5432 
-and has also created a database called demo_db.
-```
+* You need jdk 11, Maven 3.6 and postgresql 10.10 installed;
+
+* You also need the git installed if you want following some tips bellow;
+
+* The steps below assume that postgresql is running and listening on port 5432 and has also created a database called demo_db.
+
 
 ### Installing
 
